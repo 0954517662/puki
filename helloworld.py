@@ -13,7 +13,7 @@ client = LINE()
 clientMid = client.profile.mid
 clientStart = time.time()
 clientPoll = OEPoll(client)
-admin = "u2b6d894e292f2bc9ed10819a195c850c"
+admin = "uafd65893655c791f07c9ff31cbbc28d1"
 
 languageOpen = codecs.open("language.json","r","utf-8")
 readOpen = codecs.open("read.json","r","utf-8")
@@ -98,7 +98,7 @@ def menuHelp():
 		key = settings['keyCommand']
 	else:
 		key = ''
-	menuHelp =  "╭─────⛒⊱Help⊰⛒" + "\n" + \
+	menuHelp =  "╭───⛒⊱Help⊰⛒" + "\n" + \
 				"│ " + key + "Help" + "\n" + \
 				"│ " + key + "Self" + "\n" + \
 				"│ " + key + "Group" + "\n" + \
@@ -107,8 +107,8 @@ def menuHelp():
 				"│ " + key + "Settings" + "\n" + \
 				"│ " + key + "Translate" + "\n" + \
 				"│ " + key + "TextToSpeech" + "\n" + \
-				"╰─────────────" + "\n" + \
-				" ⛒ line.me/ti/p/~Myyepz ⛒"
+				"╰──────────" + "\n" + \
+				" ⛒ line.me/ti/p/~maxbotline ⛒"
 				
 	return menuHelp
 
@@ -117,7 +117,7 @@ def menuHelp1():
         key = settings['keyCommand']
     else:
         key = ''
-    menuHelp1 =  "╭────⛒⊱Self Command⊰⛒" + "\n" + \
+    menuHelp1 =  "╭──⛒⊱Self Command⊰⛒" + "\n" + \
                  "│ " + key + "Me" + "\n" + \
                  "│ " + key + "MyMid" + "\n" + \
                  "│ " + key + "MyName" + "\n" + \
@@ -133,8 +133,8 @@ def menuHelp1():
                  "│ " + key + "GetVideoProfile @Mention" + "\n" + \
                  "│ " + key + "GetCover @Mention" + "\n" + \
                  "│ " + key + "StealCover「Mention」" + "\n" + \
-                 "╰─────────────" + "\n" + \
-                 " ⛒ line.me/ti/p/~Myyepz ⛒"
+                 "╰──────────" + "\n" + \
+                 " ⛒ line.me/ti/p/~maxbotline ⛒"
                  
     return menuHelp1
 
@@ -143,7 +143,7 @@ def menuHelp2():
         key = settings['keyCommand']
     else:
         key = ''
-    menuHelp2 =  "╭────⛒⊱ Group ⊰⛒" + "\n" + \
+    menuHelp2 =  "╭──⛒⊱ Group ⊰⛒" + "\n" + \
                  "│ " + key + "GroupCreator" + "\n" + \
                  "│ " + key + "GroupID" + "\n" + \
                  "│ " + key + "GroupName" + "\n" + \
@@ -152,8 +152,8 @@ def menuHelp2():
                  "│ " + key + "MemberList" + "\n" + \
                  "│ " + key + "PendingList" + "\n" + \
                  "│ " + key + "GroupInfo" + "\n" + \
-                 "╰─────────────" + "\n" + \
-                 " ⛒ line.me/ti/p/~Myyepz ⛒"
+                 "╰──────────" + "\n" + \
+                 " ⛒ line.me/ti/p/~maxbotline ⛒"
                  
     return menuHelp2
 
@@ -162,7 +162,7 @@ def helpmessage3():
         key = settings['keyCommand']
     else:
         key = ''
-    helpmessage3 =  "╭─────⛒⊱ Special ⊰⛒" + "\n" + \
+    helpmessage3 =  "╭───⛒⊱ Special ⊰⛒" + "\n" + \
                   "│ " + key + "Mimic 「On/Off」" + "\n" + \
 				  "│ " + key + "MimicList" + "\n" + \
 				  "│ " + key + "MimicAdd @Mention" + "\n" + \
@@ -170,8 +170,8 @@ def helpmessage3():
 				  "│ " + key + "Tagall" + "\n" + \
 				  "│ " + key + "Lurking 「On/Off」" + "\n" + \
 				  "│ " + key + "Lurking" + "\n" + \
-                  "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~Myyepz ⛒"
+                  "╰──────────" + "\n" + \
+                  " ⛒ line.me/ti/p/~maxbotline ⛒"
                   
     return helpmessage3
 
@@ -181,7 +181,7 @@ def helpmessage4():
         key = settings['keyCommand']
     else:
         key = ''
-    helpmessage4 =  "╭─────⛒⊱ Media ⊰⛒" + "\n" + \
+    helpmessage4 =  "╭───⛒⊱ Media ⊰⛒" + "\n" + \
                   "│ " + key + "InstaInfo 「Username」" + "\n" + \
 				  "│ " + key + "InstaStory 「Username」" + "\n" + \
 				  "│ " + key + "Quotes" + "\n" + \
@@ -189,8 +189,8 @@ def helpmessage4():
 				  "│ " + key + "SearchMusic 「Search」" + "\n" + \
 				  "│ " + key + "SearchLyric 「Search」" + "\n" + \
 				  "│ " + key + "SearchYoutube 「Search」" + "\n" + \
-                  "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~Myyepz ⛒"
+                  "╰──────────" + "\n" + \
+                  " ⛒ line.me/ti/p/~maxbotline ⛒"
                   
     return helpmessage4
 
@@ -199,7 +199,7 @@ def helpmessage5():
         key = settings['keyCommand']
     else:
         key = ''
-    helpmessage5 =  "╭─────⛒⊱ Settings ⊰⛒" + "\n" + \
+    helpmessage5 =  "╭───⛒⊱ Settings ⊰⛒" + "\n" + \
                   "│ SetKey 「On/Off」" + "\n" + \
 				  "│ " + key + "AutoAdd 「On/Off」" + "\n" + \
 				  "│ " + key + "AutoJoin 「On/Off」" + "\n" + \
@@ -214,8 +214,8 @@ def helpmessage5():
 				  "│ " + key + "SetAutoAddMessage: 「text」" + "\n" + \
 				  "│ " + key + "SetAutoResponMessage: 「text」" + "\n" + \
 				  "│ " + key + "SetAutoJoinMessage: 「Text」" + "\n" + \
-                  "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~Myyepz ⛒"
+                  "╰──────────" + "\n" + \
+                  " ⛒ line.me/ti/p/~maxbotline ⛒"
                   
     return helpmessage5
 
@@ -224,7 +224,7 @@ def menuTextToSpeech():
 		key = settings['keyCommand']
 	else:
 		key = ''
-	menuTextToSpeech =	"╭─────⊱Text To Speech⊰" + "\n" + \
+	menuTextToSpeech =	"╭───⊱Text To Speech⊰" + "\n" + \
 						"│ " + key + "af : Afrikaans" + "\n" + \
 						"│ " + key + "sq : Albanian" + "\n" + \
 						"│ " + key + "ar : Arabic" + "\n" + \
@@ -278,8 +278,8 @@ def menuTextToSpeech():
 						"│ " + key + "uk : Ukrainian" + "\n" + \
 						"│ " + key + "vi : Vietnamese" + "\n" + \
 						"│ " + key + "cy : Welsh" + "\n" + \
-						"╰─────────────" + "\n" + "\n\n" + \
-						"Contoh : " + key + "say-id Sayang"
+						"╰──────────" + "\n" + "\n\n" + \
+						"Contoh : " + key + "say-id Max"
 	return menuTextToSpeech
 
 def menuTranslate():
@@ -287,7 +287,7 @@ def menuTranslate():
 		key = settings['keyCommand']
 	else:
 		key = ''
-	menuTranslate =	"╭──────⊱Translate⊰" + "\n" + \
+	menuTranslate =	"╭────⊱Translate⊰" + "\n" + \
 					"│ " + key + "af : afrikaans" + "\n" + \
 					"│ " + key + "sq : albanian" + "\n" + \
 					"│ " + key + "am : amharic" + "\n" + \
@@ -394,8 +394,8 @@ def menuTranslate():
 					"│ " + key + "zu : zulu" + "\n" + \
 					"│ " + key + "fil : Filipino" + "\n" + \
 					"│ " + key + "he : Hebrew" + "\n" + \
-					"╰─────────────" + "\n" + "\n\n" + \
-					"Contoh : " + key + "tr-id Sayang"
+					"╰──────────" + "\n" + "\n\n" + \
+					"Contoh : " + key + "tr-id Max"
 	return menuTranslate
 
 def clientBot(op):
